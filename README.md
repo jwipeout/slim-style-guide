@@ -58,10 +58,29 @@ Text inside an element should be on a new line and indented.
 
 ```slim
 / bad - on the same line
+
 h1 Hello World
 
 / good - on new line and indented
 
 h1
   | Hello World
+```
+
+Indent multi-line text with a single pipe
+
+```slim
+/ bad - many pipes
+
+p
+  | This is a multi-line
+  | text that is great
+  | we love slim
+
+/ good - on new line and indented
+
+p
+  | This is a multi-line
+    text that is great
+    we love slim
 ```
