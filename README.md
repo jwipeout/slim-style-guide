@@ -104,3 +104,18 @@ a(
   target='_blank'
 )
 ```
+
+For ruby method arguments that are more then two, put them on their own line after the first argument.
+
+```slim
+/ bad - on the same line
+
+= link_to 'My link', 'https://www.github.com', id: 'my-id', class: 'btn btn-primary'
+
+/ good - on new lines for each attribute
+
+= link_to 'My link',
+  'https://www.github.com',
+  id: 'my-id',
+  class: 'btn btn-primary'
+```
