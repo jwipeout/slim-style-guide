@@ -12,6 +12,8 @@ Just like any other language people have different opinions and we welcome them.
 
 - [Spacing](#spacing)
 - [Text](#text)
+- [Attributes](#attributes)
+
 
 ## Spacing
 
@@ -83,4 +85,22 @@ p
   | This is a multi-line
     text that is great
     we love slim
+```
+
+## Attributes
+
+For html attributes longer then two, put them on their own line.
+
+```slim
+/ bad - on the same line
+
+a href='https://www.github.com' class='btn btn' target='_blank'
+
+/ good - on new lines for each attribute
+
+a(
+  href='https://www.github.com'
+  class='btn btn'
+  target='_blank'
+)
 ```
