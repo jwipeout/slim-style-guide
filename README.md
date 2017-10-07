@@ -25,12 +25,12 @@ Use a space between elements that are on the same indentation.
     h1
       | Article
   #form
-	= simple_form_for article do |f|
-	  = f.error_notification
-	  = f.input :title
-	  = f.input :author
-	  = f.input :body
-	  = f.button :submit
+  = simple_form_for article do |f|
+    = f.error_notification
+    = f.input :title
+    = f.input :author
+    = f.input :body
+    = f.button :submit
 
 / good - space between same indented elements
 
