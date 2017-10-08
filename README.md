@@ -21,7 +21,6 @@ Use a space between elements that are on the same indentation.
 
 ```slim
 / bad - no spaces
-
 .container
   .heading
     h1
@@ -35,7 +34,6 @@ Use a space between elements that are on the same indentation.
     = f.button :submit
 
 / good - space between same indented elements
-
 .container
   .heading
     h1
@@ -60,11 +58,9 @@ Text inside an element should be on a new line and indented.
 
 ```slim
 / bad - on the same line
-
 h1 Hello World
 
 / good - on new line and indented
-
 h1
   | Hello World
 ```
@@ -73,14 +69,12 @@ Indent multi-line text with a single pipe
 
 ```slim
 / bad - many pipes
-
 p
   | This is a multi-line
   | text that is great
   | we love slim
 
 / good - on new line and indented
-
 p
   | This is a multi-line
     text that is great
@@ -93,11 +87,9 @@ For html attributes longer then two, put them on their own line.
 
 ```slim
 / bad - on the same line
-
 a href='https://www.github.com' class='btn btn' target='_blank'
 
 / good - on new lines for each attribute
-
 a(
   href='https://www.github.com'
   class='btn btn'
@@ -109,11 +101,9 @@ For ruby method arguments that are more then two, put them on their own line aft
 
 ```slim
 / bad - on the same line
-
 = link_to 'My link', 'https://www.github.com', id: 'my-id', class: 'btn btn-primary'
 
 / good - on new lines for each attribute
-
 = link_to 'My link',
   'https://www.github.com',
   id: 'my-id',
