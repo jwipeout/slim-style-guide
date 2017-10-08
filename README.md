@@ -81,6 +81,21 @@ p
     we love slim
 ```
 
+Use string interpolation when combining text with ruby
+
+```slim
+/ bad - combining with html
+p
+  = @article.title
+  
+  span
+    | written by Zoe
+
+/ good - on new line and indented
+p
+  = "#{@article.title} written by Zoe"
+```
+
 ## Attributes
 
 For html attributes longer then two, put them on their own line.
