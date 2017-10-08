@@ -109,3 +109,13 @@ For ruby method arguments that are more then two, put them on their own line aft
   id: 'my-id',
   class: 'btn btn-primary'
 ```
+
+Use dot or hash tag notation for declaring class or id attributes
+
+```slim
+/ bad - name attribute for class or id
+div id='article' class='text-muted'
+
+/ good - dot or hash tag
+#article.text-muted
+```
