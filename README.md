@@ -4,7 +4,7 @@
 > -- Robert Martin, Clean Code
 
 
-This Slim style guide recommends best practices when using the slim language. Just by choosing to use slim you have demonstrated that you believe in easy to read and maintainable code. This guide is here to help with rules and best practices.
+This Slim style guide recommends best practices when using the [slim language](https://github.com/slim-template/slim). Just by choosing to use slim you have demonstrated that you believe in easy to read and maintainable code. This guide is here to help with rules and best practices.
 
 Just like any other language people have different opinions and we welcome them. Fork and create a pull request to contribute.
 
@@ -91,7 +91,7 @@ p
   span
     | written by Zoe
 
-/ good - on new line and indented
+/ good - using interpolation
 p
   = "#{@article.title} written by Zoe"
 ```
